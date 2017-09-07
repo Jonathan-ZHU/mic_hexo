@@ -4,37 +4,37 @@
 
 # Head info
 head:
-    favicon: "/img/logo_miccall.png"
-    high_res_favicon: "/img/logo_miccall.png"
-    apple_touch_icon: "/img/logo_miccall.png"
+    favicon: "/img/favicon-192x192.png"
+    high_res_favicon: "/img/favicon-192x192.png"
+    apple_touch_icon: "/img/favicon-192x192.png"
     keywords: miccall
 
 Intro:
-    name: MICCALL
-    slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-    HeadButton: MICCALL
+    name: Tiny Calf
+    slogan: "do something awesome"
+    HeadButton: TINY CALF
 
 Nav:
     Home_name: 主页
-    is_use_categories : true 
+    is_use_categories : true
     categories_name: 分类
     is_use_archives : false
     archives_name: 归档
     icon:
-        github: 
+        github:
             use: true
-            link: https://github.com/miccall
+            link: https://github.com/Jonathan-ZHU
         Twitter:
             use: false
-            link: 
+            link:
         Facebook:
             use: false
-            link: 
+            link:
         Instagram:
             use: false
             link:
     pages:
-        简历: 
+        简历:
             link: "/about/"
         团队 :
             link: "/group/"
@@ -46,21 +46,21 @@ Nav:
         #   link：“路径”
 
 MainFirst:
-    name: Miccall Metro
-    description: Welcome to my Blog  
+    name: 我是Jonathan
+    description: 欢迎来拍砖
     pic_url: /images/me.jpg
     goto_ulr: ""
 
 Gallery :
-    title: Mr.metro 
-    description: Just another fine responsive 
+    title: Mr.metro
+    description: Just another fine responsive
 
 # ---------------------------------------------------------------
 # Style Settings
 # ---------------------------------------------------------------
 
-# Custom code Render System 自定义代码渲染 
-# default dark funky okaidia twilight coy solarized  可选项  
+# Custom code Render System 自定义代码渲染
+# default dark funky okaidia twilight coy solarized  可选项
 # link to review : http://prismjs.com/index.html   官网预览
 prism: coy
 
@@ -72,7 +72,7 @@ fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB"
 #     duoshuo | disqus | disqus_click | changyan
 comment:
     use: disqus_click
-    shortname: http-miccall-tech 
+    shortname: http-miccall-tech
     duoshuo_thread_key_type: path
     duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
     changyan_appid:
@@ -84,8 +84,8 @@ comment:
 #     swiftype | google | local
 search:
     use: google
-    swiftype_key: Just another fine responsive  
-    
+    swiftype_key: Just another fine responsive
+
 
 # Leancloud Views
 leancloud:
