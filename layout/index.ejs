@@ -1,6 +1,10 @@
 <body class="is-loading">
     <!-- Wrapper 外包 s-->
     <div id="wrapper" class="fade-in">
+
+      <div id="large-header" style="position:fixed" class="large-header">
+      <canvas id="demo-canvas"></canvas>
+      </div>
         <!-- Intro 头部显示 s -->
         <%- partial('_partial/intro' , {}, {cache: true}) %>
         <!-- Intro 头部显示 e -->
@@ -22,7 +26,7 @@
             <div class="link_row">
                 <!-- 文章sample  s-->
 
-                <% page.posts.each(function (post) { %> 
+                <% page.posts.each(function (post) { %>
                 <div class="6u 12u(narrower)">
                     <section class="link_box special">
                         <div class="page_title" style="background-image: url(<%= post.thumbnail %>);background-position: center; background-repeat:no-repeat; background-size:cover;-moz-background-size:cover;">
@@ -42,7 +46,7 @@
                                 show_count: false,
                                 class: 'post_category',
                                 style: 'none'
-                            }) %></a>                              
+                            }) %></a>
                             </h6>
 
                         </span>
@@ -68,4 +72,8 @@
     </div>
     <!-- Wrapper 外包 e-->
     <!-- Scripts -->
+    <script src="/js/TweenLite.min.js"></script>
+    <script src="/js/EasePack.min.js"></script>
+    <script src="/js/rAF.js"></script>
+    <script src="/js/demo-1.js"></script>
 </body>

@@ -7,7 +7,7 @@ head:
     favicon: "/img/favicon-192x192.png"
     high_res_favicon: "/img/favicon-192x192.png"
     apple_touch_icon: "/img/favicon-192x192.png"
-    keywords: miccall
+    keywords: tiny calf
 
 Intro:
     name: Tiny Calf
@@ -46,8 +46,8 @@ Nav:
         #   link：“路径”
 
 MainFirst:
-    name: 我是Jonathan
-    description: 欢迎来拍砖
+    name: 欢迎来 Tiny Calf
+    description: 我是Jonathan，全干工程师，我正在忙...
     pic_url: /images/me.jpg
     goto_ulr: ""
 
@@ -62,7 +62,7 @@ Gallery :
 # Custom code Render System 自定义代码渲染
 # default dark funky okaidia twilight coy solarized  可选项
 # link to review : http://prismjs.com/index.html   官网预览
-prism: coy
+prism: tinycalf
 
 # Custom Fonts
 fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
